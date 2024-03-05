@@ -12,7 +12,6 @@ import Profile from "./Pages/Profile";
 import Register from "./Pages/Register";
 import Wishlist from "./Pages/Wishlist";
 import Women from "./Pages/Women";
-
 import Checkout from "./Components/Checkout";
 import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
@@ -24,7 +23,27 @@ import ProductDetail from "./Components/ProductDetail";
 
 const App = () => {
   return (
-    <div>App</div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/Blog' element={<Blog/>}/>
+        <Route path='/Cart' element={<Cart/>}/>
+        <Route path='/Contact' element={<Contact/>}/>
+        <Route path='/Discount' element={<Discount/>}/>
+        <Route path='/Login' element={<Login/>}/>
+        <Route path='/Men' element={<Men/>}/>
+        <Route path='/Women' element={<Women/>}/>
+        <Route path='/Profile' element={<Profile/>}/>
+        <Route path='/Register' element={<Register/>}/>
+        <Route path='/Wishlist' element={<Wishlist/>}/>
+        <Route path='/Checkout' element={<Checkout/>}/>
+        <Route path='/Footer' element={<Footer/>}/>
+        <Route path='/Hero' element={<Hero/>}/>
+        <Route path='/Navbar' element={<Navbar/>}/>
+        <Route path='/Payment' element={<Payment/>}/>
+        <Route path='/ProductDetail' element={<ProductDetail/>}/>
+        </Routes> 
+        </Router>
   )
 }
 

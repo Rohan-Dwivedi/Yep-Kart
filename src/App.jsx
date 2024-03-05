@@ -2,7 +2,7 @@
 
 function App() {
   return (
-    <div>Test For fork and commit</div>
+    <div>kaam karo jaldi jaldi</div>
   )
 }
 

@@ -24,32 +24,8 @@ import ProductDetail from "./Components/ProductDetail";
 
 const App = () => {
   return (
-  <Router>
-    <Routes>
-      {/* Pages */}
-    <Route path="/" element={<Home/>} />
-    <Route path="/blog" element={<Blog/>} />
-    <Route path="/Cart" element={<Cart/>} />
-    <Route path="/Contact" element={<Contact/>} />
-    <Route path="/Discount" element={<Discount/>} />
-    <Route path="/Login" element={<Login/>} />
-    <Route path="/Men" element={<Men/>} />
-    <Route path="/Profile" element={<Profile/>} />
-    <Route path="/Register" element={<Register/>} />
-    <Route path="/Wishlist" element={<Wishlist/>} />
-    <Route path="/Women" element={<Women/>} />
-
-    {/* components */}
-    <Route path="/Checkout" element={<Checkout/>} />
-    <Route path="/Footer" element={<Footer/>} />
-    <Route path="/Hero" element={<Hero/>} />
-    <Route path="/Navbar" element={<Navbar/>} />
-    <Route path="/Payment" element={<Payment/>} />
-    <Route path="/ProductDetail" element={<ProductDetail/>} />
-
-    </Routes>
-  </Router>
-  );
-};
+    <div>App</div>
+  )
+}
 
 export default App

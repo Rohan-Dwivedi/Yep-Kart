@@ -2,7 +2,7 @@
 
 function App() {
   return (
-    <div>kaam karo jaldi jaldi</div>
+    <div>hmmm</div>
   )
 }
 

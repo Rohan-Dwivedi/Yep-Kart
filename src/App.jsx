@@ -23,6 +23,7 @@ import ProductDetail from "./Components/ProductDetail";
 
 const App = () => {
   return (
+    
     <Router>
       <Routes>
         <Route path='/' element={<Home/>}/>

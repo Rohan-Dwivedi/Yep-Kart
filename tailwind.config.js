@@ -19,7 +19,12 @@ export default {
  
        'sm': {'max': '639px'},
      },
-    extend: {},
+    extend: {
+      colors: {
+        customGray: 'rgb(241, 240, 240)',
+        cardGray: 'rgb(217,217,217)',
+      },
+    },
   },
   plugins: [],
 }

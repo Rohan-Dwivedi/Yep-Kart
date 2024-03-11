@@ -21,14 +21,14 @@ function Home() {
         <div className="relative h-3/4 w-full">
           <img src={Homebg} className=" w-full h-full  " />
 
-          <hr className="absolute border-white border-y-[1px] 
+          <hr className="absolute border-white border-y-[1px] m
           2xl: w-[70%] bottom-[9.8vh] mx-[15%]    
           xl: w-[70%] bottom-16 mx-[15%]
              lg: w-[70%] lg:bottom-[10vh] mx-[15%]
              md:w-[70%] bottom-[4vh] mx-[15%]
              sm:w-[70%] bottom-[8%] mx-[15%]"
           ></hr>
-          <button className="absolute left-1/2 transform -translate-x-1/2 bottom-10 bg-yellow-600 rounded-full font-bold
+          <button className="absolute left-1/2 transform -translate-x-1/2 bottom-10 bg-Homeshopbtm rounded-full font-bold
            w-[238px] h-[56px] text-[28px]
            lg:w-52 lg:h-10 lg:text-[25px] lg:bottom-[calc(100% + 10px)] lg:left-[calc(50% - 36px)]
            md:w-48 md:h-11 md:text-[24px] md:bottom-[calc(100% + 10px)] md:left-[calc(50% - 24px)]
@@ -36,7 +36,7 @@ function Home() {
             ">SHOP NOW</button>
         </div>
 
-        <div className="bg-yellow-700 flex items-center justify-evenly h-72 xl:h-64 md:h-52 sm:h-36">
+        <div className="bg-Homesecdiv flex items-center justify-evenly h-72 xl:h-64 md:h-52 sm:h-36">
           <div className="inline-block text-center">
             <img src={H1} className="rounded-full w-40 h-40 lg:w-32 lg:h-32 md:w-24 md:h-24 sm:w-16 sm:h-16" />
             <p className="text-2xl font-semibold lg:text-lg md:text-md sm:text-sm">JEANS</p>
@@ -114,13 +114,13 @@ function Home() {
 
 
       <div className="mt-0 mb-11
-      sm:mt-0 sm:mb-10
+      sm:mt-[-38px] sm:mb-10
       md:mt-2 md:mb-8
       lg:mt-0 lg:mb-24
       xl:mt-0 xl:mb-10
       2xl:mt-0 2xl:mb-12">
         <div className="flex h-28 pr-44 pt-12
-        sm:h-5 sm:p-3 
+        sm:h-0 sm:p-3 
         md:h-16 md:pt-6 
         lg:h-12 
         xl:pt- 
@@ -164,7 +164,6 @@ function Home() {
 
 
 
-      {/* <Hero /> */}
 
 
 

@@ -4,7 +4,7 @@ import H7 from "../assets/Home/H7.png";
 function Hero() {
   return (
     <div className="flex items-center justify-center w-full">
-      <div className="w-full max-w-[1200px] h-[565px] gap-1 grid grid-cols-3 md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 sm:h-[350px] sm:w-[550px]  lg:w-[1400px]">
+      <div className="w-full max-w-[1200px] h-[565px] gap-1 grid grid-cols-3 md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 sm:h-[350px] sm:w-[550px]  lg:w-[1400px] sm:pl-2 sm:pr-2 md:pl-4 md:pr-4 lg:pl-6 lg:pr-6 xl:pl-8 xl:pr-8 2xl:pl-10 2xl:pr-10">
         
         {/* First block */}
         <div className="flex flex-col mb-8 hover:shadow-lg">

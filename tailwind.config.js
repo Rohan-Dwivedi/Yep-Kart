@@ -23,6 +23,8 @@ export default {
       colors: {
         customGray: 'rgb(241, 240, 240)',
         cardGray: 'rgb(217,217,217)',
+        Homeshopbtm:'rgb(255, 153, 0)',
+        Homesecdiv:'rgb(197, 131, 4)'
       },
     },
   },

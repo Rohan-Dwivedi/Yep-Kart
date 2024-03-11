@@ -1,11 +1,13 @@
 // import React from 'react'
 import Navbar from "../Components/Navbar"
+import Footer from "../Components/Footer"
 import Homebg from "../assets/Home/Homebg.png"
 import H1 from "../assets/Home/H1.png"
 import H2 from "../assets/Home/H2.png"
 import H3 from "../assets/Home/H3.png"
 import H4 from "../assets/Home/H4.png"
 import Hero from "../Components/Hero"
+
 
 function Home() {
   return (
@@ -161,28 +163,10 @@ function Home() {
       </div>
 
       <Hero />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       {/* Last area  */}
 
 
-      <div className="flex justify-center w-full mt-12
+      <div className="flex justify-center w-full mt-12 mb-12
       sm:mt-0
       md:mt-8">
         <div className="w-10/12 pl-8 pr-8">
@@ -205,7 +189,7 @@ function Home() {
       </div>
 
 
-
+    <Footer/>
     </div>
 
 

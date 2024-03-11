@@ -10,7 +10,7 @@ function Hero() {
         <div className="flex flex-col mb-8 hover:shadow-lg">
           <div><img src={H7} className="w-full h-[439px] sm:h-[200px] " alt="Product" /></div>
 
-          <div className="w-full h-[117px] bg-gray-100 sm:h-[90px]">
+          <div className="w-full h-[117px] bg-gray-100 sm:h-[140px]">
             <div className="flex justify-between items-center h-1/2 pl-2 pr-2">
               <h1 className="w-5/6 font-[400] text-xl">Over Size Denim Jeans</h1>
               <h1 className="bg-black text-white w-1/6 h-3/4 text-center text-xl font-bold p-1 sm:w-1/3">50%</h1>
@@ -27,7 +27,7 @@ function Hero() {
         <div className="flex flex-col mb-8 hover:shadow-lg">
           <div><img src={H7} className="w-full h-[439px] sm:h-[200px]" alt="Product" /></div>
 
-          <div className="w-full h-[117px] bg-gray-100 sm:h-[90px]">
+          <div className="w-full h-[117px] bg-gray-100 sm:h-[140px]">
             <div className="flex justify-between items-center h-1/2 pl-2 pr-2">
               <h1 className="w-5/6 font-[400] text-xl">Over Size Denim Jeans</h1>
               <h1 className="bg-black text-white w-1/6 h-3/4 text-center text-xl font-bold p-1 sm:w-1/3">50%</h1>

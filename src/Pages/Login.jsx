@@ -4,9 +4,7 @@ import Hero from "../Components/Hero"
 function Login() {
   return (
     <div>
-      <Hero/>
-      <Hero/>
-
+    <p>Login</p>
     </div>
   )
 }
